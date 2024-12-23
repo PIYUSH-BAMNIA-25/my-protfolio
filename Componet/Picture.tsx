@@ -11,7 +11,7 @@ export default function Picture() {
     >
       <div className="absolute inset-0 bg-red-600 rounded-full animate-pulse"></div>
       <Image
-        src="/itachi.jpg"
+        src="images/Profile pic.jpg"
         alt="Itachi Uchiha"
         width={256}
         height={256}
