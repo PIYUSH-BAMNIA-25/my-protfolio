@@ -54,7 +54,7 @@ export default function Home() {
       </motion.button>
       {/* React Player (Background Music) */}
       <DynamicReactPlayer
-        url="/background-music.mp3"
+        url="images/background music.mp3"
         playing={!isMuted}
         loop
         volume={0.5}
