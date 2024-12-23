@@ -31,7 +31,7 @@ export default function DynamicBackground() {
     <div ref={containerRef} className="fixed inset-0 z-0 overflow-hidden">
       <div className="absolute inset-0 scale-110">
         <Image
-          src=""
+          src="images/itavhi background.jpg"
           alt="Itachi Background"
           layout="fill"
           objectFit="cover"
