@@ -9,25 +9,25 @@ const certificatesData = [
     name: 'IBM Data Science' , 
     issuer: 'IBM',
     details: 'Acquired hands-on skills in Python, Machine Learning, SQL, and Data Visualization with the world\'s most known company IBM',
-    image : ''
+    image : 'images/IBM.jpg'
   },
   { 
     name: 'Google IT Automation with Python Specialization', 
     issuer: 'Google',
     details: 'Learned advanced Python scripting, IT automation, and troubleshooting techniques to streamline workflows by the world most know compain Google',
-    image : ''
+    image : 'images/googl.jpg'
   },
   { 
     name: 'Machine Learning ( Summer Traning Program )', 
     issuer: 'Growth Ninja',
     details: 'Acquired practical knowledge about machine learning algorithms and its applications through hands-on training given by growth ninja as a summer trainee.',
-    image : ''
+    image : 'images/growth ninja.jpg'
   },
   { 
     name: 'Accenture North America - Data Analytics and Visualization Job Simulation', 
     issuer: 'Accenture North America',
     details: 'Gained practical experience in data analytics and visualization through the solution of real-world business scenarios in a job simulation provided by Accenture North America',
-    image : ''
+    image : 'images/accenture.jpg'
   },
 ]
 
@@ -113,7 +113,7 @@ export default function Certificates() {
         transition={{ duration: 0.5 }}
       >
         <Image
-          src={selectedCert ? `/images/${selectedCert.name.toLowerCase().replace(/\s+/g, '-')}.jpg` : '/default.jpg'}
+          src={selectedCert ? `/images/${selectedCert.name.toLowerCase().replace(/\s+/g, '-')}.jpg` : 'images/defult certificate.jpg'}
           alt="Certificate Visual"
           layout="fill"
           objectFit="cover"
